@@ -1,38 +1,121 @@
-.App {
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Inter, sans-serif;
+  background-color: #282D35;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #21222A;
+  height: 6.25rem;
+  padding: 1.75rem 2rem;
+  
+}
+
+.nav--icon {
+  height: 30px;
+  margin-right: 7px;
+  margin-left: 7px;
+}
+
+.nav--prev-year,
+.nav--this-year {
+  color: #61DAFB;
+  font-size: 2rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
+main {
+  /* tutaj dałem to przenislo ten Real estate in Warsaw i wszystkie wylistowane itemsy z pustym
+  spacem po kazdej stronie - 57px to gora i dol; 27px to lewo i prawo*/
+  padding: 0.4rem 0.2rem;
+  color: white;
+  /* tutaj robie ten image na backgroundzie - 
+  position to jest os X i Y
+  background-image: url(./images/react-icon-large.png);
+  background-repeat: no-repeat;
+  background-position: right 75%;*/
+}
+
+.main--facts {
+  margin-top: 0.25rem;
+  font-size: 1.25rem;
+  /* background-color: #c7ba00; */
+  margin-left: 0.1rem;
+  margin-right: 0.1rem;
+}
+
+.main--title {
+  letter-spacing: -0.07em;
+  font-size: 2.25rem;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.main--facts >  {
+  line-height: 19px;
+  /*padding-block: 2rem;*/
+  list-style: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.fact1, 
+.fact2,
+.fact3,
+.fact4 {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: space-between;
+  align-items: center;  
+  /* background-color: #6192fb; */
+  margin-right: 1.0rem;
+  margin-left: -1.5rem;
 }
 
-.App-link {
-  color: #61dafb;
+.fact1--text, 
+.fact2--text,
+.fact3--text,
+.fact4--text { 
+  min-width: 10em;
+  padding: 1rem;
+  text-align: center;
+  /* background-color: #8dfb61; */
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.nav--icon {
+  width: 1.75rem;
+  background-color: #f661fb;
+  /* margin-right: 2rem; */
+  /* margin-left: 2rem; */
+}
+
+.nav--icon-navbar {
+  width: 6rem;
+}
+
+.fact1-prev-yr,
+.fact2-prev-yr,
+.fact3-prev-yr,
+.fact4-prev-yr,
+.fact1-this-yr,
+.fact2-this-yr,
+.fact3-this-yr,
+.fact4-this-yr {
+  display: flex; 
+  justify-content: space-between;
+  align-items: center;  
+}
+
+.main--title-legend {  
+  font-size: 0.85rem;
+}
+
+
+.nav--icon-legend {
+  width: 1.4rem;
 }
