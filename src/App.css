@@ -47,7 +47,7 @@ main {
 .main--facts {
   margin-top: 0.25rem;
   font-size: 1.25rem;
-  /* background-color: #c7ba00; */
+  background-color: #c7ba00;
   margin-left: 0.1rem;
   margin-right: 0.1rem;
 }
@@ -72,7 +72,7 @@ main {
   display: flex;
   justify-content: space-between;
   align-items: center;  
-  /* background-color: #6192fb; */
+  background-color: #6192fb;
   margin-right: 1.0rem;
   margin-left: -1.5rem;
 }
@@ -84,12 +84,12 @@ main {
   min-width: 10em;
   padding: 1rem;
   text-align: center;
-  /* background-color: #8dfb61; */
+  background-color: #8dfb61;
 }
 
 .nav--icon {
   width: 1.75rem;
-  background-color: #f661fb;
+  /* background-color: #f661fb; */
   /* margin-right: 2rem; */
   /* margin-left: 2rem; */
 }
