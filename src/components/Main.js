@@ -7,7 +7,7 @@ export default function Main() {
             <div className="main--title-legend">
 
                 <center>
-                    Legend: &nbsp;<img src="./check.png" className="nav--icon-legend"/> real estate more attractive&nbsp;&nbsp;
+                    Legend: &nbsp;<img src="./check.png" className="nav--icon-legend" alt=""/> real estate more attractive&nbsp;&nbsp;
                 <img src="./remove.png" className="nav--icon-legend" alt="" /> less attractive
                 </center>
             </div>
