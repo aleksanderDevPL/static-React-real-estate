@@ -10,13 +10,23 @@ body {
 
 nav {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  /* justify-content: space-between; */
+  /* align-items: center; */
   background-color: #21222A;
   height: 6.25rem;
-  padding: 1.75rem 2rem;
+  /* padding: 1.75rem 2rem; */
   
 }
+
+.nav--icon-navbar,
+.nav--prev-year,
+.nav--this-year
+ {
+  /* background-color: #c70085;  */
+}
+
+
+
 
 .nav--icon {
   height: 30px;
@@ -27,9 +37,9 @@ nav {
 .nav--prev-year,
 .nav--this-year {
   color: #61DAFB;
-  font-size: 2rem;
-  margin-left: 2rem;
-  margin-right: 2rem;
+  font-size: 1.75rem;
+  margin: auto;
+  width: 4.5rem;
 }
 
 main {
@@ -37,17 +47,16 @@ main {
   spacem po kazdej stronie - 57px to gora i dol; 27px to lewo i prawo*/
   padding: 0.4rem 0.2rem;
   color: white;
-  /* tutaj robie ten image na backgroundzie - 
-  position to jest os X i Y
-  background-image: url(./images/react-icon-large.png);
+  background-image: url(./backgroundimg.png);
   background-repeat: no-repeat;
-  background-position: right 75%;*/
+  background-position: right 50%;
+  background-size: 25rem;
 }
 
 .main--facts {
   margin-top: 0.25rem;
   font-size: 1.25rem;
-  background-color: #c7ba00;
+  /* background-color: #c7ba00; */
   margin-left: 0.1rem;
   margin-right: 0.1rem;
 }
@@ -72,7 +81,7 @@ main {
   display: flex;
   justify-content: space-between;
   align-items: center;  
-  background-color: #6192fb;
+  /* background-color: #6192fb; */
   margin-right: 1.0rem;
   margin-left: -1.5rem;
 }
@@ -81,10 +90,11 @@ main {
 .fact2--text,
 .fact3--text,
 .fact4--text { 
-  min-width: 10em;
+  /* min-width: 8em; */
+  /* max-width: 18em; */
   padding: 1rem;
   text-align: center;
-  background-color: #8dfb61;
+  /* background-color: #8dfb61; */
 }
 
 .nav--icon {
